@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Registration | Crypto Investment Portfolio</title>
+  <meta name="description" content="A simple cryptocurrency investment portfolio.">
+  <meta name="author" content="Miguel Batiquin">
+
+  <meta property="og:title" content="A simple cryptocurrency investment portfolio.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.google.com">
+  <meta property="og:description" content="A simple cryptocurrency investment portfolio.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+<div id="login-wrap"><br>
+    <img src="img/logo_wallet3.png" width="360px" heigh="auto">
+    <h1>Registration</h1>
+    <form method="post" action="?">
+        <input type="text" name="userName" placeholder="Display Name" />
+        <input type="text" name="displayName" placeholder="Username" />
+        <input type="text" name="email" placeholder="Email" />
+        <br>
+        <input type="password" name="password" placeholder="Password" />
+        <small>Password must be consist of 8-12 alphanumeric characters.</small>
+        <input type="password" name="confirmPassword" placeholder="Confirm Password" />
+        <small><red>Password did not match.</red></small>
+        <br><br>
+        <input type="submit" value="Create my account" />
+        <p><a href="login.html">Already have an account?</a></p><br>
+    </form>
+
+</div>
+
+<div id="footer-wrap">
+  <div id="footer-div-1">
+    <h1>About</h1>
+    <p>This is a test project that runs on Golang that I intent to use personally to track my crypto investments. I don't have a significant amount of money on the crypto, not that I don't want to but it's what I can only afford. I couldn't call my wallet, a "wallet" due to the miniscule amount of my investments. Hence, the purse. Maybe someday, it'll grow and I'll no longer call my wallet a purse but this website, I hope it will live on by then.</p>
+    <p>I'm sharing this in the open in hopes of some people would like to have a different approach in keeping track of their investments. Sure, it doesn't have the advance functionalities that the other portfolio apps has to offer but this one, is rather simple and more convenient to use. You don't need to connect any API or any wallet, just put the amount, the buy price and the app will do its algorithm.</p>
+    <br>
+    <p>
+      <a href="?"><img src="img/socials/fb.png"></a>
+      <a href="?"><img src="img/socials/twitter.png"></a>
+      <a href="?"><img src="img/socials/linkedin.png"></a>
+      <a href="?"><img src="img/socials/github.png"></a>
+    </p>
+  </div>
+
+  <div id="footer-div-2">
+    <h1>Blogs</h1>
+    <p>Why Chainlink</p>
+    <p>Rose might do a 100x</p>
+    <p>Fantom is the best platform for NFTs</p>
+    <p>Matic is fast and efficient</p>
+    <p>Top 10 picks in Polygon Matic</p>
+    <p>Top 5 picks in Fantom</p>
+    <p>How to setup a Matic wallet</p>
+  </div>
+
+  <div id="footer-div-3">
+    <h1>Contact</h1>
+    <p>Pleased to meet you, let me know what you think.</p>
+    <form method="post">
+      <p><input type="text" name="name" placeholder="Name" /></p>
+      <p><input type="text" name="email" placeholder="Email" /></p>
+      <p><input type="text" name="subject" placeholder="Subject" /></p>
+      <p><textarea rows="4" name="message" placeholder="Write your message here..."></textarea></p>
+      <p><input type="submit" value="Send"></p>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

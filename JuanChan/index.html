@@ -1,0 +1,90 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script type="text/javascript">
+var login_attempts=10;
+function check_form()
+{
+ var name=document.getElementById("name").value;
+ var pass=document.getElementById("pass").value;
+ if(name=="admin" && pass=="admin")
+ {
+  alert("Welcome back, " + name + ".");
+  document.getElementById("name").value="";
+  document.getElementById("pass").value="";
+ }
+ else
+ {
+  if(login_attempts==0)
+  {
+   alert("No Login Attempts Available");
+  }
+  else
+  {
+   login_attempts=login_attempts-1;
+   alert("Login failed: "+login_attempts+" login attempts available.");
+   if(login_attempts==0)
+   {
+    document.getElementById("name").disabled=true;
+    document.getElementById("pass").disabled=true;
+    document.getElementById("form1").disabled=true;
+   }
+  }
+ }
+ 
+ return false;
+}	
+</script>
+</head>
+<title>Golang Web App - Login</title>
+<body>
+<div id="wrapper">
+<br><br><br>
+
+<form id="form1" method="post" action="" onsubmit="return check_form();">
+ <p id="login_label">WELCOME</p>
+ <input type="text" id="name" placeholder="Enter Username">
+ <br>
+ <input type="password" id="pass" placeholder="Enter Password">
+ <br>
+ <input type="submit" value="LOGIN">
+ <br><br><br>
+</form>
+
+
+<details id="details1">
+<summary>Click here to learn more.</summary>
+
+<br>
+<!--<img src="img/golang.png" width="180px" height="260px"></img>-->
+<h1>Instructions</h1>
+<p>Please use the following:<br>
+Username: admin<br>
+Password: admin</p>
+
+<h1>Details about the code.</h1>
+
+
+<xmp class="xsource">
+/* main.go */
+
+package main
+
+import "fmt"
+
+func main() {
+  fmt.Println("hello world")
+}
+</xmp>
+	
+<p>It would print below.</p>
+<xmp class="xoutput">
+$ go build main.go
+hello world
+</xmp>
+	
+</details>
+
+</div>
+</body>
+</html>

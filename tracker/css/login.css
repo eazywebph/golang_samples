@@ -1,0 +1,100 @@
+
+#login-wrap {
+    width: 450px;
+    margin: 0 auto;
+    font-family: inherit;
+}
+
+@media only screen and (max-width: 450px) {
+    #login-wrap {
+        width: 350px;
+    }
+
+    #login-wrap form {
+        font-weight: normal;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+    #login-wrap img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+
+    #login-wrap h1 {
+        background-color: #28d;
+        color: #fff;
+        text-align: center;
+        font-weight: normal;
+        font-size: 1.5em;
+        padding: 15px;
+        margin: 0;
+    }
+
+    #login-wrap form {
+        background-color: #ebebeb;
+        padding: 20px;
+    }
+
+    #login-wrap input {
+        display: block;
+        padding: 10px;
+        width: 90%;
+        margin: 15px auto;
+        font-size: 0.9em;
+        font-weight: normal;
+        line-height: 1.5em;
+    }
+
+    #login-wrap input[type="submit"] {
+        background-color: #28d;
+        border-style: solid;
+        border-color: #28d;
+        color: #fff;
+        cursor: pointer;
+        width: 96%;
+        font-size: 0.9em;
+    }
+
+    #login-wrap p {
+        margin-top: 0;
+        margin-bottom: -10px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #28d;
+    }
+
+    #login-wrap p a {
+        text-decoration: none;
+        color:#28d;
+        padding: 10px;
+    }
+
+    #login-wrap small {
+        padding: 0 10px;
+        margin: 0;
+        display: block;
+        line-height: 2em;
+    }
+
+    #login-wrap red {
+        color: red;
+    }
+
+    #login-wrap green {
+        color: green;
+    }
+
+    #login-wrap input[type="submit"]:hover {
+        background: rgb(89, 169, 235);
+        border-color: rgb(89, 169, 235);
+    }
+
+    #login-wrap a:hover {
+        color: rgb(89, 169, 235);
+    }
+

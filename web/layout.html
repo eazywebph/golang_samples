@@ -1,0 +1,21 @@
+<h1>{{.PageTitle}}</h1>
+<!--
+<ul>
+    {{range .Todos}}
+        {{if .Done}}
+            <li class="done">{{.Title}}</li>
+        {{else}}
+            <li>{{.Title}}</li>
+        {{end}}
+    {{end}}
+</ul>
+
+This block was the original sample html that was given but I later found out that you can simply execute it right off the bat by opening {{range .Todos}} and closing it with an {{end}}
+
+-->
+
+<ul>
+    {{range .Todos}}
+            <li class="done">{{.Title}}</li>
+    {{end}}
+</ul>

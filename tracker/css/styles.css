@@ -1,0 +1,121 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(to bottom, #05a 7%, #ffffff 7%);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#footer-wrap {
+    background-color: #3b3b3b;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 20%;
+    padding: 35px 0 10px 0;
+    height: 400px;
+    margin-bottom: 0;
+}
+
+    #footer-wrap h1 {
+        color: #eee;
+        font-weight: normal;
+        font-size: 1.2em;
+        margin: 10px 0 25px 0;
+    }
+
+    #footer-wrap p {
+        color: #aaa;
+        font-weight: normal;
+        font-size: 0.9em;
+    }
+
+    #footer-wrap input[type="text"] {
+        display: block;
+        width: 80%;
+        padding: 5px 10px;
+        margin: 0;
+        font-size: 0.9em;
+    }
+
+    #footer-wrap textarea {
+        font-size: 1.2em;
+        width: 80%;
+        padding: 5px 10px;
+        margin: 0;
+        margin: 0;
+    }
+
+    #footer-wrap input[type="submit"] {
+        padding: 10px 15px;
+        border: 0;
+        color: #333333;
+        background-color: #ccc;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+        #footer-wrap input[type="submit"]:hover {
+            color: #444;
+            background-color: #eee;
+        }
+
+    #footer-wrap img {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        margin-right: 5px;
+        border-radius: 100%;
+    }
+
+#footer-div-1 {
+    width: 35%;
+    float: left;
+    height:auto;
+    padding: 5px 20px;
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+#footer-div-2 {
+    width: 18%;
+    float:left;
+    padding: 5px 20px;
+    margin-left: 25px;
+    margin-top: 0;
+    align-self: center;
+}
+
+#footer-div-3 {
+    width: 18%;
+    float:right;
+    padding: 5px 20px;
+    margin-top: 0;
+    margin-right: 100px;
+}
+
+@media only screen and (max-width: 1300px) {
+    #footer-wrap {
+        bottom: 0;
+        width: 100%;
+        margin-top: 250px;
+        padding: 25px 0 0 0;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    #footer-div-1, #footer-div-2, #footer-div-3 {
+        display: inline-block;
+        width: 90%;
+        margin: 25px 0 0 0;
+        padding: 0 20px;
+        float: none;
+    }
+
+}

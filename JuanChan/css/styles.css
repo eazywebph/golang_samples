@@ -1,0 +1,115 @@
+
+
+body {
+	text-align:center;
+	width:100%;
+	margin:0 auto;
+	padding:0px;
+	font-family:helvetica;
+}
+
+#wrapper {
+	 text-align:center;
+	 margin:0 auto;
+	 padding:0px;
+	 width:50%;
+}
+
+	/* Styles for the login form in index.html */
+	#form1 {
+		background-color:white;
+		width:100%;
+		margin-left:0;
+		box-shadow:0px 0px 10px 0px #d8d8d8;
+	}
+	#form1 p {
+		color:#33ccff;
+		font-weight:bold;
+	}
+	#form1 #login_label {
+		color:#33ccff;
+		padding:20px;
+		font-size:25px;
+		border-bottom:1px solid #e6e6e6;
+		font-weight:bold;
+	}
+	#form1 input[type="text"], input[type="password"] {
+		width:350px;
+		height:40px;
+		padding-left:10px;
+		margin-top:10px;
+		border:1px solid #d8d8d8;
+	}
+	#form1 input[type="submit"] {
+		margin-top:25px;
+		width:290px;
+		height:40px;
+		background-color:#33ccff;
+		border:none;
+		color:white;
+		box-shadow:0px 3px 0px 0px #44ddff;
+		border-radius:3px;
+		font-weight:bold;
+	}
+	#form1 input[type="submit"]:hover {
+		background-color:#44ddff;
+	}
+
+	
+	#details1 {
+		padding: .65em 1em;
+		text-align: left;
+		box-shadow:0px 0px 10px 0px #d8d8d8;
+		color: #666666;
+	}
+	#details1 summary {
+
+	}
+	#details h1 {
+		
+	}
+	#details1 p {
+		font-family: "Lucida Console", "Courier New", monospace;
+		font-size: .9em;
+		color: #333333;
+		line-height: 1.5em;
+	}
+	#details1 .xsource {
+		background-color: #eeeeee;
+		width:97%;
+		padding: 0 0 10px 10px;
+		line-height: 1.5em;
+	}
+	#details1 .xoutput {
+		background-color: black;
+		width:97%;
+		padding: 0 0 10px 10px;	
+		color: white;
+		line-height: 1.5em;
+	}
+
+
+
+/*
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+	width: 100%;
+		text-align: left;
+}
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+	text-align: left;
+}
+details[open] {
+    padding: .5em;
+}
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+
+}
+*/
